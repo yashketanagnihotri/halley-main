@@ -8,13 +8,13 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">KuliSeva</span>
+            <span className="text-rose-500 font-extrabold">KuliSevaaaaaaa</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
-            KuliSeva aims to develop an online platform to
-enable booking luggage transportation services by
-porters.
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laboriosam aliquam eos, esse reiciendis consectetur laudantium! Atque quis
+            KuliSeva aims to develop an online platform to enable booking
+            luggage transportation services by porters. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsum laboriosam aliquam eos,
+            esse reiciendis consectetur laudantium! Atque quis
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
@@ -26,7 +26,10 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laboriosam aliqu
             </div>
 
             <div>
-              <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
+              <Link
+                href="https://github.com/humberni/halley/blob/main/README.md"
+                target="_blank"
+              >
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
                   Documentación
                 </button>
