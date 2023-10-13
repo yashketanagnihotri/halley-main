@@ -8,7 +8,7 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">KuliSevaaaaaaa</span>
+            <span className="text-rose-500 font-extrabold">KuliSeva</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
             KuliSeva aims to develop an online platform to enable booking
