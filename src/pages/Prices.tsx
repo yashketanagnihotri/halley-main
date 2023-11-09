@@ -16,10 +16,9 @@
 
 // export default Prices
 
-import Link from "next/link";
 import { useState } from "react";
 
-export default function SignUp() {
+export default function Prices() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -79,13 +78,9 @@ export default function SignUp() {
         <p  className="text-red-500 text-xs italic">Please choose a password.</p>
       </div>
       <div className="flex items-center justify-between">
-        <Link
-        href='/SignedInPassenger'
-        >
         <button style={{'backgroundColor':'RGB(244, 63, 94)'}} className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
           Sign In
         </button>
-        </Link>
         <a style={{'textColor':'RGB(244, 63, 94)'}} className="inline-block align-baseline font-bold text-sm text-red-500 hover:text-blue-800" href="#">
           Forgot Password?
         </a>

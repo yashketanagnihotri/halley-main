@@ -1,25 +1,7 @@
-// import React from 'react'
-
-// function Prices() {
-//   return (
-//     <div style={{'display':'flex','flexDirection':'column', 'justifyContent':'center', 'alignContent':'center', 'margin':'20px'}}>
-//         <div>
-//        <h1 style={{'fontSize':'50px'}}> Calculate Prices of Bag</h1>
-//        <form action="">
-//         <input title='Enter number of bags' type="text" placeholder='hi' />
-//        </form>
-//        </div>
-
-//     </div>
-//   )
-// }
-
-// export default Prices
-
 import Link from "next/link";
 import { useState } from "react";
 
-export default function SignUp() {
+export default function SignUpPorter() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -80,7 +62,7 @@ export default function SignUp() {
       </div>
       <div className="flex items-center justify-between">
         <Link
-        href='/SignedInPassenger'
+        href='/FoundaPorter'
         >
         <button style={{'backgroundColor':'RGB(244, 63, 94)'}} className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
           Sign In
