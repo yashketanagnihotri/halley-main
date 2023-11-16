@@ -12,8 +12,8 @@ const navigation = [
   { name: "Pricing", href: "#pricing", current: false },
   { name: "Faq", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
-  { name: "SignUp", href: "/SignUp", current:false},
-  { name : 'Price', href : '/Prices', current:false}
+  { name: "SignUp", href: "/SignUp", current: false },
+  { name: "Price", href: "/Prices", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -43,10 +43,7 @@ export default function Navbar() {
                       sizes="100vw"
                     />
                   </Link>
-                  <Link
-                    href='/signup'
-                    replace
-                  ></Link>
+                  <Link href="/signup" replace></Link>
                 </div>
 
                 <div className="hidden sm:ml-6 sm:block">
@@ -70,18 +67,12 @@ export default function Navbar() {
                 </div>
 
                 <div className="absolute inset-y-0 right-10 sm:right-0 flex items-center gap-2">
-                  <Link
-                    href="/SignUp"
-                    className="hidden sm:block"
-                  >
+                  <Link href="/SignUp" className="hidden sm:block">
                     <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
                       Sign Up as Customer
                     </button>
                   </Link>
-                  <Link
-                    href="/SignUpPorter"
-                    className="hidden sm:block"
-                  >
+                  <Link href="/SignUpPorter" className="hidden sm:block">
                     <button className="bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 px-4 p-2 text-base font-medium dark:hover:bg-rose-500 hover:bg-rose-500 hover:text-white dark:hover:text-white rounded-full">
                       Sign Up as Porter
                     </button>
